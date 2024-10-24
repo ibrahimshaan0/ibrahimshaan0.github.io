@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../pictures/favicon0.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Buy Form</title>
+</head>
+
+<body>
+    <section class="buy-form-section">
+        <form action="submit.php" method="post" class="buy-form">
+            <div class="form-card">
+
+                <!-- buyer details section -->
+                <div class="buyer-details main-wrapper">
+                    <h2 class="section-title">Step 1: Your Details</h2>
+                    <div class="input-item-holder center-class mt-15">
+                        <div class="input-item-sub-holder">
+                            <div class="form-info-title">Name: </div>
+                            <div class="form-info-input">
+                                <input type="text" name="buyer-form-name" placeholder="Enter a name"
+                                    id="buyer-form-name">
+                            </div>
+                        </div>
+                        <div class="input-item-sub-holder">
+                            <div class="form-info-title">E-mail: </div>
+                            <div class="form-info-input">
+                                <input type="email" name="buyer-form-name" placeholder="Enter E-mail"
+                                    id="buyer-form-name">
+                            </div>
+                        </div>
+                        <div class="input-item-sub-holder">
+                            <div class="form-info-title">Phone: </div>
+                            <div class="form-info-input">
+                                <input type="number" name="buyer-form-name" placeholder="Enter Phone Number"
+                                    id="buyer-form-name">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- delivery address section -->
+                <div class="delivery-address main-wrapper">
+                    <h2 class="section-title">Step 2: Delivery Address</h2>
+                    <div class="address-item-holder center-class">
+                        <div class="input-item-sub-holder">
+                            <div class="form-info-title">Address: </div>
+                            <div class="form-info-input">
+                                <textarea name="delivery-address" id="delivery-address"
+                                    placeholder="Your Delivery Address" cols="40" rows="10"></textarea>
+                            </div>
+                        </div>
+                        <div class="input-item-sub-holder">
+                            <div class="form-info-title">Post code: </div>
+                            <div class="form-info-input">
+                                <input type="number" name="buyer-form-name" placeholder="Enter Post Code"
+                                    id="buyer-form-name">
+                            </div>
+                        </div>
+                        <div class="input-item-sub-holder">
+                            <div class="form-info-title">Country: </div>
+                            <div class="form-info-input">
+                                <input type="text" name="buyer-form-name" placeholder="Enter Country"
+                                    id="buyer-form-name">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card details section -->
+                <div class="card-details main-wrapper">
+                    <h2 class="section-title">Step 3: Card Details</h2>
+                    <div class="card-details-item-holder center-class">
+                        <div class="input-item-sub-holder">
+                            <div class="form-info-title">Card Type: </div>
+                            <div class="form-info-input">
+                                <input type="radio" name="card-type" value="Visa"> Visa
+                                <input type="radio" name="card-type" value="AmEx"> AmEx
+                                <input type="radio" name="card-type" value="Mastercard"> Mastercard
+                            </div>
+                        </div>
+                        <div class="input-item-sub-holder">
+                            <div class="form-info-title">Card Number: </div>
+                            <div class="form-info-input">
+                                <input type="number" name="buyer-form-name" placeholder="Enter Post Code"
+                                    id="buyer-form-name">
+                            </div>
+                        </div>
+                        <div class="input-item-sub-holder">
+                            <div class="form-info-title">CVV: </div>
+                            <div class="form-info-input">
+                                <input type="number" name="buyer-form-name" placeholder="Enter Country"
+                                    id="buyer-form-name">
+                            </div>
+                        </div>
+                        <div class="input-item-sub-holder">
+                            <div class="form-info-title">Name of Card: </div>
+                            <div class="form-info-input">
+                                <input type="text" name="buyer-form-name" placeholder="Enter Country"
+                                    id="buyer-form-name">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- button section -->
+
+
+                <div class="button-holder">
+                    <button type="submit">Buy IT!</button>
+                </div>
+
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
